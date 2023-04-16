@@ -386,7 +386,7 @@ main{
 .estatisticas-mapas{
     background-color: #1a1919;
     width: 330px;
-    height: 675px;
+    height: 355px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #00000030;
 }
@@ -511,7 +511,7 @@ main{
     flex-direction: column;
     align-items: center;
     width: 330px;
-    height: 905px;
+    height: 335px;
     margin-top: 20px;
     background-color: #1a1919;
     border-radius: 20px;
@@ -567,7 +567,7 @@ main{
 
 .historico{
     width: 667px;
-    height: 2930px;
+    height: 2041px;
     background-color: #1a1919;
     border-radius: 20px;
     margin-left: 50px;
