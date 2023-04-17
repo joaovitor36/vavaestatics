@@ -12,7 +12,10 @@
     <header class="topo">
         <div class="topo-ajustes">
             <h1 class="logo">vavaestatics</h1>
-            <input class="pesquisa" type="search" placeholder="  nick e #">
+            <div class="caixa-de-pesquisa">
+                <input class="pesquisa" type="search" placeholder="  nick e #">
+                <a href=""><img class="pesquisa-icone" src="imagem/icone/loupe2.png" alt=""></a>
+            </div>
         </div>
     </header>
     <main>
@@ -41,15 +44,22 @@
                         <div class="estatisticas-elo-imagem">
                             <img class="estatisticas-elo-imagem-ajustes" src="imagem/ouro3.png" alt="ouro3elo">
                         </div>
-                        <div class="estatisticas-elo-texto">
-                            <h3 class="estatisticas-elo-texto-h3">Competitivo</h3>
-                            <p class="estatisticas-elo-texto-p1">55V - 75D</p>
-                            <p class="estatisticas-elo-texto-p2"> 44% de win</p>
-                        </div>
-                        <div class="barra-de-carregamento">
-                            <div class="barra-de-v">
+                        <div class="estatisticas-porcentagem-ajustes">
+                            <div class="estatisticas-elo-texto">
+                                <h3 class="estatisticas-elo-texto-h3">Competitivo</h3>
+                                <p class="estatisticas-elo-texto-p1">30V - 35D</p>
                             </div>
-                            <div class="barra-de-d">
+                            <div class="barra-porcentagem-vd">
+                                <div class="barra-porcentagem-vd-nomes">
+                                    <p class="barra-porcentagem-vd-nomes-p1">46%- Vitória</p>
+                                    <p class="barra-porcentagem-vd-nomes-p2">54%- Derrota</p>
+                                </div>
+                                <div class="barra-de-carregamento">
+                                    <div class="barra-de-v">
+                                    </div>
+                                    <div class="barra-de-d">
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -224,13 +234,13 @@
                                             </div>
                                             <div class="estatisticas-tiro-corpo-dados">
                                                 <div class="estatisticas-tiro-corpo-dados-cabeca">
-                                                    <p>13,3%</p>
+                                                    <p>Cabeça: 13,3%</p>
                                                 </div>
                                                 <div class="estatisticas-tiro-corpo-dados-peito">
-                                                    <p>79,5%</p>
+                                                    <p>Corpo: 79,5%</p>
                                                 </div>
                                                 <div class="estatisticas-tiro-corpo-dados-perna">
-                                                    <p>7,3%</p>
+                                                    <p>Perna: 7,3%</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -304,18 +314,87 @@
             <div class="historico">
                 <div class="historico-todo">
                     <header class="historico-topo">
-                        <h2>Historico</h2>
+                        <h2>Histórico</h2>
                     </header>
                     <div class="historico-jogo">
                         <div class="historico-jogo-ajustes">
                             <div class="historico-jogo-imagem">
+                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/killjoy-art-withBG.webp" alt="">
+                            </div>
+                            <div class="historico-jogo-mapa">
+                                <h4>Pearl</h4>
+                            </div>
+                            <div class="historico-jogo-placar">
+                                <p class="h-j-p-v">Vitória</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">13</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">11</span>
+                                </div>
+                            </div>
+                            <div class="historico-jogo-kda">
+                                <p>K/D/A</p>
+                                <strong>13/16/8</strong>
+                            </div>
+                            <div class="historico-jogo-ACS">
+                                <p>ACS</p>
+                                <strong>186</strong>
+                            </div>
+                        </div>
+                        <div class="historico-jogo-ajustes">
+                            <div class="historico-jogo-imagem">
+                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/gekko-art-withBG.webp" alt="">
+                            </div>
+                            <div class="historico-jogo-mapa">
+                                <h4>Fracture</h4>
+                            </div>
+                            <div class="historico-jogo-placar">
+                                <p class="h-j-p-d">Derrota</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">12</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">14</span>
+                                </div>
+                            </div>
+                            <div class="historico-jogo-kda">
+                                <p>K/D/A</p>
+                                <strong>20/20/10</strong>
+                            </div>
+                            <div class="historico-jogo-ACS">
+                                <p>ACS</p>
+                                <strong>243</strong>
+                            </div>
+                        </div>
+                        <div class="historico-jogo-ajustes">
+                            <div class="historico-jogo-imagem">
+                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/raze-art-withBG.webp" alt="">
+                            </div>
+                            <div class="historico-jogo-mapa">
+                                <h4>Lotus</h4>
+                            </div>
+                            <div class="historico-jogo-placar">
+                                <p class="h-j-p-d">Derrota</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">13</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">10</span>
+                                </div>
+                            </div>
+                            <div class="historico-jogo-kda">
+                                <p>K/D/A</p>
+                                <strong>10/17/9</strong>
+                            </div>
+                            <div class="historico-jogo-ACS">
+                                <p>ACS</p>
+                                <strong>169</strong>
+                            </div>
+                        </div>
+                        <div class="historico-jogo-ajustes">
+                            <div class="historico-jogo-imagem">
                                 <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
                             </div>
                             <div class="historico-jogo-mapa">
                                 <h4>Haven</h4>
                             </div>
                             <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
+                                <p class="h-j-p-d">Derrota</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
+                                </div>
                             </div>
                             <div class="historico-jogo-kda">
                                 <p>K/D/A</p>
@@ -328,13 +407,192 @@
                         </div>
                         <div class="historico-jogo-ajustes">
                             <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
+                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/harbor-art-withBG.webp" alt="">
+                            </div>
+                            <div class="historico-jogo-mapa">
+                                <h4>Icebox</h4>
+                            </div>
+                            <div class="historico-jogo-placar">
+                                <p class="h-j-p-v">vitória</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">13</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">5</span>
+                                </div>
+                            </div>
+                            <div class="historico-jogo-kda">
+                                <p>K/D/A</p>
+                                <strong>14/13/11</strong>
+                            </div>
+                            <div class="historico-jogo-ACS">
+                                <p>ACS</p>
+                                <strong>232</strong>
+                            </div>
+                        </div>
+                        <div class="historico-jogo-ajustes">
+                            <div class="historico-jogo-imagem">
+                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/chamber-art-withBG.webp" alt="">
+                            </div>
+                            <div class="historico-jogo-mapa">
+                                <h4>Ascent</h4>
+                            </div>
+                            <div class="historico-jogo-placar">
+                                <p class="h-j-p-v">Vitória</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">4</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">0</span>
+                                </div>
+                            </div>
+                            <div class="historico-jogo-kda">
+                                <p>K/D/A</p>
+                                <strong>0/4/0</strong>
+                            </div>
+                            <div class="historico-jogo-ACS">
+                                <p>ACS</p>
+                                <strong>436</strong>
+                            </div>
+                        </div>
+                        <div class="historico-jogo-ajustes">
+                            <div class="historico-jogo-imagem">
+                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/raze-art-withBG.webp" alt="">
                             </div>
                             <div class="historico-jogo-mapa">
                                 <h4>Haven</h4>
                             </div>
                             <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
+                                <p class="h-j-p-v">Vitória</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">13</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">4</span>
+                                </div>
+                            </div>
+                            <div class="historico-jogo-kda">
+                                <p>K/D/A</p>
+                                <strong>7/12/3</strong>
+                            </div>
+                            <div class="historico-jogo-ACS">
+                                <p>ACS</p>
+                                <strong>134</strong>
+                            </div>
+                        </div>
+                        <div class="historico-jogo-ajustes">
+                            <div class="historico-jogo-imagem">
+                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/harbor-art-withBG.webp" alt="">
+                            </div>
+                            <div class="historico-jogo-mapa">
+                                <h4>Paerl</h4>
+                            </div>
+                            <div class="historico-jogo-placar">
+                                <p class="h-j-p-v">Vitória</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">9</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">5</span>
+                                </div>
+                            </div>
+                            <div class="historico-jogo-kda">
+                                <p>K/D/A</p>
+                                <strong>7/11/7</strong>
+                            </div>
+                            <div class="historico-jogo-ACS">
+                                <p>ACS</p>
+                                <strong>147</strong>
+                            </div>
+                        </div>
+                        <div class="historico-jogo-ajustes">
+                            <div class="historico-jogo-imagem">
+                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/gekko-art-withBG.webp" alt="">
+                            </div>
+                            <div class="historico-jogo-mapa">
+                                <h4>Haven</h4>
+                            </div>
+                            <div class="historico-jogo-placar">
+                                <p class="h-j-p-v">Vitória</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">13</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">7</span>
+                                </div>
+                            </div>
+                            <div class="historico-jogo-kda">
+                                <p>K/D/A</p>
+                                <strong>13/16/4</strong>
+                            </div>
+                            <div class="historico-jogo-ACS">
+                                <p>ACS</p>
+                                <strong>182</strong>
+                            </div>
+                        </div>
+                        <div class="historico-jogo-ajustes">
+                            <div class="historico-jogo-imagem">
+                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/gekko-art-withBG.webp" alt="">
+                            </div>
+                            <div class="historico-jogo-mapa">
+                                <h4>Split</h4>
+                            </div>
+                            <div class="historico-jogo-placar">
+                                <p class="h-j-p-v">Vitória</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">4</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">1</span>
+                                </div>
+                            </div>
+                            <div class="historico-jogo-kda">
+                                <p>K/D/A</p>
+                                <strong>5/2/3</strong>
+                            </div>
+                            <div class="historico-jogo-ACS">
+                                <p>ACS</p>
+                                <strong>307</strong>
+                            </div>
+                        </div>
+                        <div class="historico-jogo-ajustes">
+                            <div class="historico-jogo-imagem">
+                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/kayo-art-withBG-2.webp" alt="">
+                            </div>
+                            <div class="historico-jogo-mapa">
+                                <h4>Haven</h4>
+                            </div>
+                            <div class="historico-jogo-placar">
+                                <p class="h-j-p-v">Vitória</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">13</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">7</span>
+                                </div>
+                            </div>
+                            <div class="historico-jogo-kda">
+                                <p>K/D/A</p>
+                                <strong>24/12/7</strong>
+                            </div>
+                            <div class="historico-jogo-ACS">
+                                <p>ACS</p>
+                                <strong>338</strong>
+                            </div>
+                        </div>
+                        <div class="historico-jogo-ajustes">
+                            <div class="historico-jogo-imagem">
+                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/chamber-art-withBG.webp" alt="">
+                            </div>
+                            <div class="historico-jogo-mapa">
+                                <h4>Pearl</h4>
+                            </div>
+                            <div class="historico-jogo-placar">
+                                <p class="h-j-p-v">Vitória</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">13</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">11</span>
+                                </div>
+                            </div>
+                            <div class="historico-jogo-kda">
+                                <p>K/D/A</p>
+                                <strong>16/18/6</strong>
+                            </div>
+                            <div class="historico-jogo-ACS">
+                                <p>ACS</p>
+                                <strong>214</strong>
+                            </div>
+                        </div>
+                        <div class="historico-jogo-ajustes">
+                            <div class="historico-jogo-imagem">
+                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/breach-art-withBG.webp" alt="">
+                            </div>
+                            <div class="historico-jogo-mapa">
+                                <h4>Fracture</h4>
+                            </div>
+                            <div class="historico-jogo-placar">
+                                <p class="h-j-p-v">Vitória</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">5</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">4</span>
+                                </div>
                             </div>
                             <div class="historico-jogo-kda">
                                 <p>K/D/A</p>
@@ -342,7 +600,51 @@
                             </div>
                             <div class="historico-jogo-ACS">
                                 <p>ACS</p>
-                                <strong>133</strong>
+                                <strong>185</strong>
+                            </div>
+                        </div>
+                        <div class="historico-jogo-ajustes">
+                            <div class="historico-jogo-imagem">
+                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/chamber-art-withBG.webp" alt="">
+                            </div>
+                            <div class="historico-jogo-mapa">
+                                <h4>Ascent</h4>
+                            </div>
+                            <div class="historico-jogo-placar">
+                                <p class="h-j-p-v">Vitória</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">13</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">9</span>
+                                </div>
+                            </div>
+                            <div class="historico-jogo-kda">
+                                <p>K/D/A</p>
+                                <strong>13/15/2</strong>
+                            </div>
+                            <div class="historico-jogo-ACS">
+                                <p>ACS</p>
+                                <strong>175</strong>
+                            </div>
+                        </div>
+                        <div class="historico-jogo-ajustes">
+                            <div class="historico-jogo-imagem">
+                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/raze-art-withBG.webp" alt="">
+                            </div>
+                            <div class="historico-jogo-mapa">
+                                <h4>Lotus</h4>
+                            </div>
+                            <div class="historico-jogo-placar">
+                                <p class="h-j-p-d">Derrota</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">12</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">14</span>
+                                </div>
+                            </div>
+                            <div class="historico-jogo-kda">
+                                <p>K/D/A</p>
+                                <strong>19/21/4</strong>
+                            </div>
+                            <div class="historico-jogo-ACS">
+                                <p>ACS</p>
+                                <strong>238</strong>
                             </div>
                         </div>
                         <div class="historico-jogo-ajustes">
@@ -350,303 +652,21 @@
                                 <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
                             </div>
                             <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
+                                <h4>Pearl</h4>
                             </div>
                             <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
+                                <p class="h-j-p-d">Derrota</p>
+                                <div class="h-j-p-ta-ajustes">
+                                    <span class="h-j-p-ta">9</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
+                                </div>
                             </div>
                             <div class="historico-jogo-kda">
                                 <p>K/D/A</p>
-                                <strong>9/19/6</strong>
+                                <strong>13/19/4</strong>
                             </div>
                             <div class="historico-jogo-ACS">
                                 <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
-                            </div>
-                        </div>
-                        <div class="historico-jogo-ajustes">
-                            <div class="historico-jogo-imagem">
-                                <img class="historico-jogo-imagem-ajustes" src="imagem/agentes/sova-art-withBG.webp" alt="">
-                            </div>
-                            <div class="historico-jogo-mapa">
-                                <h4>Haven</h4>
-                            </div>
-                            <div class="historico-jogo-placar">
-                                <span class="h-j-p-ta">11</span> <span  class="h-j-p">:</span> <span class="h-j-p-ti">13</span>
-                            </div>
-                            <div class="historico-jogo-kda">
-                                <p>K/D/A</p>
-                                <strong>9/19/6</strong>
-                            </div>
-                            <div class="historico-jogo-ACS">
-                                <p>ACS</p>
-                                <strong>133</strong>
+                                <strong>182</strong>
                             </div>
                         </div>
                     </div>

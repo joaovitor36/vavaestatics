@@ -13,6 +13,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /*font-family: 'Inter', sans-serif;*/
+
 body{
     font-family: sans-serif;
     background-image: linear-gradient(to left, #07060B, #044040);
@@ -22,6 +23,17 @@ main{
     margin: auto;
     font-family: 'Inter', sans-serif;
 }
+
+::-webkit-scrollbar{
+    width: 8px;
+    background-color: #000000;
+}
+::-webkit-scrollbar-thumb{
+    width: 10px;
+    background-color: #484849;
+    border-radius: 10px;
+}
+
 .topo{
     background-color: #000000;
     box-shadow: 0px 10px 10px #1413131f;
@@ -41,11 +53,25 @@ main{
     cursor: pointer;
     text-decoration: none;
 }
+.caixa-de-pesquisa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f8ff;
+    width: 270px;
+    height: 30px;
+    border-radius: 14px;
+}
 .pesquisa{
     border: none;
-    background-color: #ebeff3;
-    border-radius: 20px;
-    padding: 5px;
+    background: none;
+    outline: none;
+    margin-left: 10px;
+}
+.pesquisa-icone{
+    width: 20px;
+    margin-right: 10px;
+
 }
 .colunas{
     display: flex;
@@ -87,19 +113,20 @@ main{
 }
 .estatisticas-elo{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     width: 330px;
-    height: 300px;
+    height: 120px;
     background-color: #0f0e0e;
     border-radius: 20px;
     margin-top: 25px;
     box-shadow: 5px 5px 10px #00000030;
 }
 .estatisticas-elo-imagem-ajustes{
-    width: 100px;
+    width: 80px;
 }
+
 .estatisticas-elo-texto{
     display: flex;
     flex-direction: column;
@@ -116,10 +143,28 @@ main{
     margin-bottom: 10px;
     font-weight: 500;
 }
-.estatisticas-elo-texto-p2{
-    color: #C3354B;
-    font-weight: 600;
+
+.barra-porcentagem-vd{
+    display: flex;
+    flex-direction: column;
 }
+.barra-porcentagem-vd-nomes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.barra-porcentagem-vd-nomes-p1{
+    color: #00B8B8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+.barra-porcentagem-vd-nomes-p2{
+    color: #C3354B;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+}   
 .barra-de-carregamento{
     width: 200px;
     height: 5px;
@@ -127,13 +172,13 @@ main{
     display: flex;
 }
 .barra-de-v{
-    width: 88px;
+    width: 92px;
     height: 5px;
     background-color: #00B8B8;
     border-radius: 3px 0px 0px 3px;
 }
 .barra-de-d{
-    width: 112px;
+    width: 108px;
     height: 5px;
     background-color: #C3354B;
     border-radius: 0px 3px 3px 0px;
@@ -143,7 +188,7 @@ main{
     flex-direction: column;
     align-items: center;
     width: 330px;
-    height: 280px;
+    height: 320px;
     margin-top: 20px;
     background-color: #1a1919;
     border-radius: 20px;
@@ -161,14 +206,15 @@ main{
     background-color: #111111;
     color: #f0f8ff;
     box-shadow: 5px 5px 5px #11111138;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #222121;
 }
 .estatisticas-geral-kills{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #8e9194;
     width: 290px;
+    height: 25px;
     margin-top: 5px;
     padding: 0px 15px 0px 15px;
     color: #f0f8ff;
@@ -178,8 +224,10 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #8e9194;
+    border-radius: 3px;
     width: 290px;
+    height: 25px;
+    background-color: #333333;
     margin-top: 5px;
     padding: 0px 15px 0px 15px;
     color: #f0f8ff;
@@ -189,8 +237,8 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #8e9194;
     width: 290px;
+    height: 25px;
     margin-top: 5px;
     padding: 0px 15px 0px 15px;
     color: #f0f8ff;
@@ -200,8 +248,10 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #8e9194;
     width: 290px;
+    height: 25px;
+    background-color: #333333;
+    border-radius: 3px;
     margin-top: 5px;
     padding: 0px 15px 0px 15px;
     color: #f0f8ff;
@@ -211,8 +261,8 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #8e9194;
     width: 290px;
+    height: 25px;
     margin-top: 5px;
     padding: 0px 15px 0px 15px;
     color: #f0f8ff;
@@ -221,8 +271,10 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #8e9194;
     width: 290px;
+    height: 25px;
+    background-color: #333333;
+    border-radius: 3px;
     margin-top: 5px;
     padding: 0px 15px 0px 15px;
     color: #f0f8ff;
@@ -231,8 +283,8 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #8e9194;
     width: 290px;
+    height: 25px;
     margin-top: 5px;
     padding: 0px 15px 0px 15px;
     color: #f0f8ff;
@@ -241,8 +293,10 @@ main{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #8e9194;
     width: 290px;
+    height: 25px;
+    background-color: #333333;
+    border-radius: 3px;
     margin-top: 5px;
     padding: 0px 15px 0px 15px;
     margin-bottom: 5px;
@@ -250,7 +304,7 @@ main{
 }
 .estatisticas-agente{
     width: 330px;
-    height: 350px;
+    height: 320px;
     background-color: #1a1919;
     border-radius: 20px;
     margin-top: 20px;
@@ -264,13 +318,14 @@ main{
     background-color: #111111;
     color: #f0f8ff;
     box-shadow: 5px 5px 5px #11111138;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #222121;
+
 }
 .estatisticas-agente-um-ajustes{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 7px;
     cursor: pointer;
     height: 70px;
     transition: 0.3s;
@@ -281,7 +336,7 @@ main{
 }
 .estatisticas-agente-um-imagem{
     border-radius: 10px;
-    width: 50px;
+    width: 40px;
     margin-left: 3px;
 }
 .estatisticas-agente-um-ajustes strong{
@@ -303,7 +358,6 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 7px;
     cursor: pointer;
     height: 70px;
     transition: 0.3s;
@@ -314,7 +368,7 @@ main{
 }
 .estatisticas-agente-dois-imagem{
     border-radius: 10px;
-    width: 50px;
+    width: 40px;
     margin-left: 1px;
 }
 .estatisticas-agente-dois-ajustes strong{
@@ -335,7 +389,6 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 7px;
     cursor: pointer;
     height: 70px;
     transition: 0.3s;
@@ -346,7 +399,7 @@ main{
 }
 .estatisticas-agente-tres-imagem{
     border-radius: 10px;
-    width: 50px;
+    width: 40px;
     margin-left: 2px;
 }
 .estatisticas-agente-tres-ajustes strong{
@@ -386,7 +439,7 @@ main{
 .estatisticas-mapas{
     background-color: #1a1919;
     width: 330px;
-    height: 355px;
+    height: 320px;
     border-radius: 20px;
     box-shadow: 5px 5px 10px #00000030;
 }
@@ -397,13 +450,13 @@ main{
     background-color: #111111;
     color: #f0f8ff;
     box-shadow: 5px 5px 5px #11111138;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #222121;
 }
 .estatisticas-mapa-ajustes{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 10px;
     height: 70px;
     cursor: pointer;
     transition: 0.3s;
@@ -413,7 +466,7 @@ main{
     border-radius: 8px;
 }
 .estatisticas-mapa-imagem-ajustes{
-    width: 60px;
+    width: 50px;
 }
 .estatisticas-mapa-imagem{
     border-radius: 10px;
@@ -472,7 +525,9 @@ main{
     background-color: #111111;
     color: #f0f8ff;
     box-shadow: 5px 5px 5px #11111138;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
+    border-bottom: 1px solid #222121;
+
 }
 .estatisticas-tiros{
     background-color: #1a1919;
@@ -489,7 +544,7 @@ main{
     margin-right: 20px;
 }
 .estatisticas-tiro-corpo-imagem-ajustes{
-    width: 100px;
+    width: 90px;
     margin-bottom: 5px;
 }
 .estatisticas-tiro-corpo-dados{
@@ -511,7 +566,7 @@ main{
     flex-direction: column;
     align-items: center;
     width: 330px;
-    height: 335px;
+    height: 320px;
     margin-top: 20px;
     background-color: #1a1919;
     border-radius: 20px;
@@ -526,6 +581,8 @@ main{
     color: #f0f8ff;
     box-shadow: 5px 5px 5px #11111138;
     margin-bottom: 10px;
+    border-bottom: 1px solid #222121;
+
 }
 .arma-todo-ajustes{
     width: 330px;
@@ -541,7 +598,7 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
     height: 45px;
     cursor: pointer;
     transition: 0.3s;
@@ -567,7 +624,7 @@ main{
 
 .historico{
     width: 667px;
-    height: 2041px;
+    height: 1821px;
     background-color: #1a1919;
     border-radius: 20px;
     margin-left: 50px;
@@ -581,7 +638,8 @@ main{
     background-color: #111111;
     color: #f0f8ff;
     box-shadow: 5px 5px 5px #11111138;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #222121;
 }
 .historico-jogo{
     display: flex;
@@ -597,6 +655,7 @@ main{
     height: 110px;
     cursor: pointer;
     transition: 0.3s;
+    border-bottom: 2px solid #04191b;
 }
 .historico-jogo-ajustes:hover{
     background-color: #484849;
@@ -609,6 +668,26 @@ main{
 }
 .historico-jogo-mapa{
     color: #f0f8ff;
+    width: 80px;
+    text-align: left;
+}
+.historico-jogo-placar{
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.h-j-p-ta-ajustes{
+    display: flex;
+}
+.h-j-p-v{
+    font-weight: 700;
+    color: #00B8B8;
+
+}
+.h-j-p-d{
+    font-weight: 700;
+    color: #C3354B;
 }
 .h-j-p-ta{
     color: #00B8B8;
@@ -620,6 +699,7 @@ main{
     color: #C3354B;
 }
 .historico-jogo-kda{
+    width: 65px;
     color: #f0f8ff;
 }
 .historico-jogo-kda p{
