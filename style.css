@@ -184,9 +184,6 @@ main{
     border-radius: 0px 3px 3px 0px;
 }
 .estatisticas-geral{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 330px;
     height: 320px;
     margin-top: 20px;
@@ -208,6 +205,12 @@ main{
     box-shadow: 5px 5px 5px #11111138;
     margin-bottom: 5px;
     border-bottom: 1px solid #222121;
+
+}
+.estatisticas-geral-ajustes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .estatisticas-geral-kills{
     display: flex;
@@ -418,6 +421,7 @@ main{
 }
 .estatisticas-agente-botao{
     margin-left: 25px;
+    margin-top: 5px;
 }
 .estatisticas-agente-botao-ajustes{
     border: none;
@@ -508,9 +512,6 @@ main{
     font-weight: bolder;
 }
 .estatisticas-tiros{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     width: 330px;
     height: 320px;
     margin-top: 20px;
@@ -553,18 +554,19 @@ main{
     justify-content: space-around;
 }
 .estatisticas-tiro-corpo-dados-cabeca{
+    font-weight: 700;
     color: #C3354B;
 }
 .estatisticas-tiro-corpo-dados-peito{
+    font-weight: 700;
     color: #00B8B8;
 }
 .estatisticas-tiro-corpo-dados-perna{
+    font-weight: 700;
     color: #C3354B;
 }
 .estatisticas-armas{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
     width: 330px;
     height: 320px;
     margin-top: 20px;
@@ -586,6 +588,9 @@ main{
 }
 .arma-todo-ajustes{
     width: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .arma-imagem{
     width: 80px;
@@ -598,7 +603,7 @@ main{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 6px;
+    margin-bottom: 7px;
     height: 45px;
     cursor: pointer;
     transition: 0.3s;
@@ -652,19 +657,28 @@ main{
     align-items: center;
     justify-content: space-around;
     width: 660px;
-    height: 110px;
+    height: 113px;
     cursor: pointer;
     transition: 0.3s;
     border-bottom: 2px solid #04191b;
 }
 .historico-jogo-ajustes:hover{
     background-color: #484849;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+.historico-jogo-imagem{
+    width: 130px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .historico-jogo-imagem-ajustes{
     width: 70px;
     border-radius: 15px;
-
+}
+.historico-jogo-imagem-classe-ajustes{
+    width: 30px;
+    margin-left: 15px;
 }
 .historico-jogo-mapa{
     color: #f0f8ff;
@@ -691,12 +705,15 @@ main{
 }
 .h-j-p-ta{
     color: #00B8B8;
+    font-weight: 700;
 }
 .h-j-p{
     color: #f0f8ff;
+    font-weight: 700;
 }
 .h-j-p-ti{
     color: #C3354B;
+    font-weight: 700;
 }
 .historico-jogo-kda{
     width: 65px;
@@ -710,4 +727,82 @@ main{
 }
 .historico-jogo-ACS p{
     color: #8e9194;
+}
+.historico-botao{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.historico-botao-ajustes{
+    border: none;
+    background-color: #252424;
+    color: #8e9194;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    width: 650px;
+    height: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.historico-botao-ajustes:hover{
+    color: #f0f8ff;
+    background-color: #000000;
+    
+}
+@media (max-width:1100px){
+    .colunas{
+        flex-wrap: wrap;
+    }
+    .estatisticas-ajustes{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+    .estatisticas-elo{
+        width: 900px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .estatisticas-geral{
+        width: 400px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .estatisticas-agente{
+        width: 400px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .estatisticas-mapas{
+        width: 400px;
+        margin: auto;
+    }
+    .estatisticas-tiros{
+        width: 400px;
+        margin: auto;
+    }
+    .estatisticas-armas{
+        width: 400px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .arma-todo-ajustes{
+        margin-left: 25px;
+    }
+    .estatisticas-agente-botao-ajustes{
+        width: 353px;
+    }
+    .historico{
+        width: 900px;
+        margin: auto;
+    }
+    .historico-jogo-ajustes{
+        width: 900px;
+        display: flex;
+    }
+    .historico-botao-ajustes{
+        width: 890px;
+    }
 }
