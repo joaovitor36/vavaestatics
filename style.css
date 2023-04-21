@@ -988,17 +988,36 @@ main{
     .estatisticas-geral{
         width: 310px;
     }   
+    .estatisticas-geral-topo-h3{
+        font-size: 1rem;
+    
+    }
     .estatisticas-agente{
         width: 310px;
+    }
+    .estatisticas-agente-topo-h3{
+        font-size: 1rem;
+   
     }
     .estatisticas-mapas{
         width: 310px;
         margin-bottom: 20px;
+    }
+    .estatisticas-mapas-topo-h3{
+        font-size: 1rem;
     
     }
     .estatisticas-tiros{
         width: 310px;
         
+    }
+    .estatisticas-tiro-topo-h3{
+        font-size: 1rem;
+        margin-left: -5px;
+    }
+    .estatisticas-armas-topo-h3{
+        font-size: 1rem;
+    
     }
     .estatisticas-armas{
         font-size: 0.8;
@@ -1015,6 +1034,10 @@ main{
         width: 310px;
         margin: 0px;
         margin-bottom: 20px;
+    }
+    .historico-topo-h2{
+        font-size: 1rem;
+        margin-left: -10px;
     }
     .historico-jogo-ajustes{
         width: 310px;
