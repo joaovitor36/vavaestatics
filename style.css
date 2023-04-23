@@ -926,24 +926,59 @@ main{
    
     }
     .estatisticas-elo{
-        width: 500px;
+        width: 400px;
+    }
+    .estatisticas-agente{
+        width: 400px;
+    }
+    .estatisticas-mapas{
+        width: 400px;
+    }
+    .estatisticas-geral{
+        width: 400px;
+    }
+    .estatisticas-tiros{
+        width: 400px;
+    }
+    .estatisticas-armas{
+        width: 400px;
     }
     .estatisticas-ajustes{  
         width: 670px;
         display: flex;
         align-items: center;
     }
-
+    .estatisticas-agente-botao-ajustes{
+        width: 350px;
+    }
     .estatisticas-mapas{
         margin-bottom: 20px;
     
     }
-
     .historico{
+        width: 400px;
         margin: 0px;
         margin-bottom: 20px;
     }
-
+    .historico-topo-h2{
+        font-size: 1rem;
+        margin-left: -10px;
+    }
+    .historico-jogo-ajustes{
+        width: 400px;
+        font-size: 0.8rem;
+        padding: 5px;
+    }
+    .historico-botao-ajustes{
+        width: 390px;
+    }
+    .historico-jogo-imagem-ajustes{
+        width: 35px;
+    }
+    .historico-jogo-imagem-classe-ajustes{
+        width: 20px;
+    }
+    
 }
 @media (max-width:750px){
     main{
